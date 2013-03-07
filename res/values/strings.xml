@@ -1,0 +1,20 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="app_name">Bluetooth Keycode Tester</string>
+    <string name="menu_copy">Copy</string>
+    <string name="title_activity_bluetooth_test">Bluetooth Keycode Test</string>
+    
+    <!--
+    This string is used as the format string in a String.format call,
+    and 5 additional arguments are available for printing:
+    1 - hours
+    2 - minutes
+    3 - minutes%60
+    4 - seconds
+    5 - second%60
+    6 - millisecond%1000
+    -->
+
+    <string translatable="false" name="millisecformat"><xliff:g id="format">%1$02d:%3$02d:%5$02d:%6$03d </xliff:g></string>
+
+</resources>
